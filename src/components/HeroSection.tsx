@@ -59,10 +59,15 @@ const HeroSection = () => {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.3 }}
-            className="text-4xl sm:text-5xl lg:text-6xl font-display font-bold leading-tight mb-4"
+            className="text-4xl sm:text-5xl lg:text-6xl font-display font-bold leading-tight mb-4 text-center lg:text-left"
           >
-            Hello, I'm{" "}
-            <span className="text-gradient">Navan Chakravarthi</span>
+            <span className="block text-lg sm:text-xl lg:text-2xl text-muted-foreground font-medium mb-2">
+              Hello, I&apos;m
+            </span>
+            <span className="block text-transparent bg-clip-text bg-gradient-to-r from-primary to-accent tracking-tight whitespace-nowrap overflow-hidden text-ellipsis text-3xl sm:text-4xl lg:text-5xl">
+              Navan Chakravarthi H S
+            </span>
+            <span className="block mx-auto mt-2 w-16 h-1 rounded-full bg-gradient-to-r from-primary/70 to-accent/70" />
           </motion.h1>
 
           <motion.p
@@ -97,7 +102,7 @@ const HeroSection = () => {
             >
               View Projects <ArrowDown className="ml-1" size={16} />
             </Button>
-            <a href="/resume.pdf" download="Navan_Chakravarthi_Resume.pdf" className="inline-block">
+            <a href="/resume.pdf" download="Navan_Chakravarthi_Resume.pdf" target="_blank" rel="noopener noreferrer" className="inline-block">
               <Button
                 variant="outline"
                 size="lg"
