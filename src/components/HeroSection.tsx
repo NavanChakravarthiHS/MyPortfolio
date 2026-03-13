@@ -97,13 +97,15 @@ const HeroSection = () => {
             >
               View Projects <ArrowDown className="ml-1" size={16} />
             </Button>
-            <Button
-              variant="outline"
-              size="lg"
-              className="border-border hover:border-primary/50 hover:bg-primary/5 rounded-lg px-6"
-            >
-              Download Resume <Download className="ml-1" size={16} />
-            </Button>
+            <a href="/resume.pdf" download="Navan_Chakravarthi_Resume.pdf" className="inline-block">
+              <Button
+                variant="outline"
+                size="lg"
+                className="border-border hover:border-primary/50 hover:bg-primary/5 rounded-lg px-6"
+              >
+                Download Resume <Download className="ml-1" size={16} />
+              </Button>
+            </a>
           </motion.div>
         </div>
 
