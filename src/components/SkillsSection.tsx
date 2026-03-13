@@ -2,14 +2,14 @@ import { motion, useInView } from "framer-motion";
 import { useRef } from "react";
 
 const skills = [
-  { name: "Java", level: 85, icon: "☕" },
-  { name: "OOP", level: 80, icon: "🧩" },
-  { name: "HTML", level: 90, icon: "🌐" },
-  { name: "CSS", level: 85, icon: "🎨" },
-  { name: "JavaScript", level: 80, icon: "⚡" },
-  { name: "MongoDB", level: 70, icon: "🍃" },
-  { name: "Git", level: 75, icon: "🔀" },
-  { name: "GitHub", level: 80, icon: "🐙" },
+  { name: "Java", logo: "/skill-logos/java.svg" },
+  { name: "OOP", logo: "/skill-logos/oop.svg" },
+  { name: "HTML", logo: "/skill-logos/html.svg" },
+  { name: "CSS", logo: "/skill-logos/css.svg" },
+  { name: "JavaScript", logo: "/skill-logos/javascript.svg" },
+  { name: "MongoDB", logo: "/skill-logos/mongodb.svg" },
+  { name: "Git", logo: "/skill-logos/git.svg" },
+  { name: "GitHub", logo: "/skill-logos/github.svg" },
 ];
 
 const SkillsSection = () => {
@@ -42,17 +42,10 @@ const SkillsSection = () => {
               transition={{ duration: 0.5, delay: i * 0.1 }}
               className="glass-card rounded-2xl p-6 text-center group cursor-default hover:scale-105 transition-transform duration-300"
             >
-              <div className="text-4xl mb-3">{skill.icon}</div>
-              <h3 className="font-medium text-foreground mb-3">{skill.name}</h3>
-              <div className="w-full h-2 bg-muted rounded-full overflow-hidden">
-                <motion.div
-                  initial={{ width: 0 }}
-                  animate={inView ? { width: `${skill.level}%` } : {}}
-                  transition={{ duration: 1, delay: 0.3 + i * 0.1, ease: "easeOut" }}
-                  className="h-full bg-gradient-to-r from-primary to-accent rounded-full"
-                />
+              <div className="w-16 h-16 mx-auto mb-3">
+                <img src={skill.logo} alt={`${skill.name} logo`} className="w-full h-full object-contain" />
               </div>
-              <p className="text-xs text-muted-foreground mt-2">{skill.level}%</p>
+              <h3 className="font-medium text-foreground mt-0">{skill.name}</h3>
             </motion.div>
           ))}
         </div>
