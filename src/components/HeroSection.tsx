@@ -115,9 +115,18 @@ const HeroSection = () => {
           className="order-1 lg:order-2 flex justify-center"
         >
           <div className="relative">
-            <div className="w-64 h-64 sm:w-80 sm:h-80 rounded-full bg-gradient-to-br from-primary/20 to-accent/20 p-1 animate-pulse-glow">
+            <div className="w-56 h-56 sm:w-72 sm:h-72 md:w-80 md:h-80 rounded-full bg-gradient-to-br from-primary/20 to-accent/20 p-1 animate-pulse-glow">
               <div className="w-full h-full rounded-full bg-card flex items-center justify-center overflow-hidden border-2 border-primary/10">
-                <div className="text-6xl font-display font-bold text-gradient">NC</div>
+                <img
+                  src="/profile.jpeg"
+                  alt="Navan Chakravarthi profile"
+                  className="w-full h-full object-cover rounded-full"
+                  style={{ objectPosition: "center 60%" }}
+                  onError={(event) => {
+                    const target = event.currentTarget as HTMLImageElement;
+                    target.src = "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 160 160'%3E%3Crect width='160' height='160' fill='%23E5E7EB'/%3E%3Ctext x='50%25' y='55%25' dominant-baseline='middle' text-anchor='middle' font-family='Arial,Helvetica,sans-serif' font-size='48' fill='%236B7280'%3ENC%3C/text%3E%3C/svg%3E";
+                  }}
+                />
               </div>
             </div>
             {/* Decorative ring */}
