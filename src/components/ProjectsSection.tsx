@@ -10,7 +10,7 @@ const projects = [
     description:
       "An interactive quiz application featuring multiple categories, timed questions, score tracking, and a leaderboard. Built with a focus on user experience and responsive design.",
     tech: ["Java", "HTML", "CSS", "JavaScript", "MongoDB"],
-    github: "#",
+    github: "https://github.com/NavanChakravarthiHS/QUIZ-QUEST",
     live: "#",
   },
   {
@@ -19,8 +19,8 @@ const projects = [
     description:
       "A modern, responsive portfolio website showcasing projects and skills with smooth animations and a premium dark UI design.",
     tech: ["React", "TypeScript", "Tailwind CSS", "Framer Motion"],
-    github: "#",
-    live: "#",
+    github: "https://github.com/NavanChakravarthiHS/MyPortfolio",
+    live: "https://my-portfolio-theta-eosin-31.vercel.app/",
   },
 ];
 
