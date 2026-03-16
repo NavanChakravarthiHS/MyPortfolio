@@ -12,7 +12,7 @@ const profiles = [
     name: "HackerRank",
     icon: SiHackerrank,
     link: "https://www.hackerrank.com/profile/chakravarthi1307",
-    stats: "3★ Java"
+    stats: "3★ Java | 3★ Python | 1★ SQL"
   },
   {
     name: "GeeksforGeeks",
