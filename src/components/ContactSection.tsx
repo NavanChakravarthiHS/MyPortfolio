@@ -45,41 +45,8 @@ const ContactSection = () => {
           <div className="w-20 h-1 bg-gradient-to-r from-primary to-accent mx-auto rounded-full" />
         </motion.div>
 
-        <div className="grid lg:grid-cols-2 gap-12 max-w-5xl mx-auto">
-          {/* Form */}
-          <motion.form
-            onSubmit={handleSubmit}
-            initial={{ opacity: 0, x: -30 }}
-            animate={inView ? { opacity: 1, x: 0 } : {}}
-            transition={{ duration: 0.6, delay: 0.2 }}
-            className="glass-card rounded-2xl p-8 space-y-5"
-          >
-            <Input
-              placeholder="Your Name"
-              required
-              className="bg-muted/50 border-border focus:border-primary/50 rounded-lg"
-            />
-            <Input
-              type="email"
-              placeholder="Your Email"
-              required
-              className="bg-muted/50 border-border focus:border-primary/50 rounded-lg"
-            />
-            <Textarea
-              placeholder="Your Message"
-              required
-              rows={5}
-              className="bg-muted/50 border-border focus:border-primary/50 rounded-lg resize-none"
-            />
-            <Button
-              type="submit"
-              disabled={sending}
-              className="w-full bg-gradient-to-r from-primary to-accent text-primary-foreground rounded-lg hover:opacity-90 transition-opacity"
-              size="lg"
-            >
-              {sending ? "Sending..." : "Send Message"} <Send size={16} className="ml-1" />
-            </Button>
-          </motion.form>
+        <div className="grid lg:gr  id-cols-2 gap-12 max-w-5xl mx-auto">
+          
 
           {/* Info */}
           <motion.div
