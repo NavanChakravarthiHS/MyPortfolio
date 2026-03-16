@@ -7,9 +7,9 @@ import { Textarea } from "@/components/ui/textarea";
 import { useToast } from "@/hooks/use-toast";
 
 const socials = [
-  { icon: Github, label: "GitHub", href: "https://github.com" },
-  { icon: Linkedin, label: "LinkedIn", href: "https://linkedin.com" },
-  { icon: Mail, label: "Email", href: "mailto:navan@example.com" },
+  { icon: Github, label: "GitHub", href: "https://github.com/NavanChakravarthiHS" },
+  { icon: Linkedin, label: "LinkedIn", href: "https://linkedin.com/in/navanchakravarthihs" },
+  { icon: Mail, label: "Email", href: "mailto:navan1307@yahoo.com" },
 ];
 
 const ContactSection = () => {
