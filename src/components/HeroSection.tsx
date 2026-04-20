@@ -76,7 +76,7 @@ const HeroSection = () => {
             transition={{ delay: 0.4 }}
             className="text-lg text-primary font-medium mb-4"
           >
-            Java Developer | Full Stack Developer
+            Aspiring Full Stack Developer
           </motion.p>
 
           <motion.p

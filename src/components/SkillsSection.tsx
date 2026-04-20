@@ -10,6 +10,7 @@ const skills = [
   { name: "HTML", logo: "/skill-logos/html.svg" },
   { name: "CSS", logo: "/skill-logos/css.svg" },
   { name: "JavaScript", logo: "/skill-logos/javascript.svg" },
+  {name:"MySQL", logo:"/skill-logos/mysql.svg"},
   { name: "ReactJs", logo:"/skill-logos/react.svg"},
   { name: "MongoDB", logo: "/skill-logos/mongodb.svg" },
   { name: "Git", logo: "/skill-logos/git.svg" },

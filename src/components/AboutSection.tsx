@@ -47,8 +47,7 @@ const AboutSection = () => {
             transition={{ duration: 0.6, delay: 0.3 }}
           >
             <p className="text-muted-foreground leading-relaxed mb-6">
-              I'm an aspiring <span className="text-foreground font-medium">Java Developer</span> and{" "}
-              <span className="text-foreground font-medium">Full Stack Developer</span> with a passion for
+              I'm an aspiring <span className="text-foreground font-medium">Full Stack Developer</span> with a passion for
               building robust, scalable web applications. Currently deepening my expertise in
               backend technologies, databases, and modern frontend frameworks.
             </p>
