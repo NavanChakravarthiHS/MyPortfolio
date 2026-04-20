@@ -3,8 +3,10 @@ import { useRef } from "react";
 
 const skills = [
   { name: "Java", logo: "/skill-logos/java.svg" },
+  // { name:"C Program" logo:"/skill-logos/c.svg"},
+
   { name:"Python", logo:"/skill-logos/python.svg"},
-  // { name: "OOP", logo: "/skill-logos/oop.svg" },
+  { name: "C Program", logo: "/skill-logos/c.svg" },
   { name: "HTML", logo: "/skill-logos/html.svg" },
   { name: "CSS", logo: "/skill-logos/css.svg" },
   { name: "JavaScript", logo: "/skill-logos/javascript.svg" },
