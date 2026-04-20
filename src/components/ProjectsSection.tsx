@@ -28,7 +28,7 @@ const projects = [
     title: "Smart Bin Tracking System",
     subtitle: "Major Project (Working on it currently)",
     description:
-      "A modern, responsive portfolio website showcasing projects and skills with smooth animations and a premium dark UI design.",
+      "A dashboard to track the bins fill level (Still working on this project.).",
     tech: ["React", "JS", "Tailwind CSS", "HTML", "CSS" ],
     github: "https://github.com/NavanChakravarthiHS/Bin-tracking-System",
     live: "#",
