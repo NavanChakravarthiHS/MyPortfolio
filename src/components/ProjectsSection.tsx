@@ -10,8 +10,9 @@ const projects = [
     description:
       "An interactive quiz application featuring multiple categories, timed questions, score tracking, and a leaderboard. Built with a focus on user experience and responsive design.",
     tech: ["Java", "HTML", "CSS", "JavaScript", "MongoDB"],
-    github: "https://github.com/NavanChakravarthiHS/QUIZ-QUEST",
-    live: "#",
+    github: "https://github.com/NavanChakravarthiHS/Quiz-Quest-main",
+    live: "https://quiz-quest-main.vercel.app/",
+    image: "/quiz-quest.png",
   },
   {
     title: "Portfolio Website",
@@ -21,6 +22,7 @@ const projects = [
     tech: ["React", "TypeScript", "Tailwind CSS", "Framer Motion"],
     github: "https://github.com/NavanChakravarthiHS/MyPortfolio",
     live: "https://my-portfolio-theta-eosin-31.vercel.app/",
+    image: "/portfolio.png",
   },
 ];
 
@@ -55,11 +57,18 @@ const ProjectsSection = () => {
               className="glass-card rounded-2xl overflow-hidden group"
             >
               {/* Project image area */}
-              <div className="h-48 bg-gradient-to-br from-primary/10 to-accent/10 flex items-center justify-center border-b border-border">
-                <span className="text-5xl font-display font-bold text-gradient opacity-50 group-hover:opacity-80 transition-opacity">
-                  {project.title.charAt(0)}Q
-                </span>
-              </div>
+              <a
+                href={project.live}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="block h-48 overflow-hidden border-b border-border"
+              >
+                <img
+                  src={project.image}
+                  alt={`${project.title} landing page screenshot`}
+                  className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
+                />
+              </a>
 
               <div className="p-6">
                 <h3 className="text-xl font-display font-bold text-foreground mb-1">

@@ -1,6 +1,6 @@
 import { motion, useInView } from "framer-motion";
 import { useRef, useState } from "react";
-import { Github, Linkedin, Mail, Send } from "lucide-react";
+import { Github, Linkedin, Mail, Send, Phone } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
@@ -61,6 +61,13 @@ const ContactSection = () => {
             <p className="text-muted-foreground leading-relaxed mb-8">
               I'm always open to discussing new projects, creative ideas, or opportunities to be part
               of your vision. Feel free to reach out!
+            </p>
+
+            <p className="text-sm text-muted-foreground mb-6">
+              <span className="font-medium text-foreground">Phone:</span>{" "}
+              <a href="tel:+911234567890" className="text-accent hover:text-primary">
+                +91 7411416681
+              </a>
             </p>
 
             <div className="flex gap-4">
