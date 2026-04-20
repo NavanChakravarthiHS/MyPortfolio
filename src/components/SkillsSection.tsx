@@ -3,13 +3,16 @@ import { useRef } from "react";
 
 const skills = [
   { name: "Java", logo: "/skill-logos/java.svg" },
-  { name: "OOP", logo: "/skill-logos/oop.svg" },
+  { name:"Python", logo:"/skill-logos/python.svg"},
+  // { name: "OOP", logo: "/skill-logos/oop.svg" },
   { name: "HTML", logo: "/skill-logos/html.svg" },
   { name: "CSS", logo: "/skill-logos/css.svg" },
   { name: "JavaScript", logo: "/skill-logos/javascript.svg" },
+  { name: "ReactJs", logo:"/skill-logos/react.svg"},
   { name: "MongoDB", logo: "/skill-logos/mongodb.svg" },
   { name: "Git", logo: "/skill-logos/git.svg" },
   { name: "GitHub", logo: "/skill-logos/github.svg" },
+  
 ];
 
 const SkillsSection = () => {
