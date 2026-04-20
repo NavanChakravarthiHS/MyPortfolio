@@ -29,7 +29,7 @@ const projects = [
     subtitle: "Major Project (Working on it currently)",
     description:
       "A modern, responsive portfolio website showcasing projects and skills with smooth animations and a premium dark UI design.",
-    tech: ["React", "JS", "Tailwind CSS", "HTML" "CSS"],
+    tech: ["React", "JS", "Tailwind CSS", "HTML", "CSS" ],
     github: "https://github.com/NavanChakravarthiHS/Bin-tracking-System",
     live: "#",
     image: "/dashboard.png",
